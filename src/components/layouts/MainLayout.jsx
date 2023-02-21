@@ -8,7 +8,7 @@ export const MainLayout = () => {
             
             <SideBar/>
 
-            <main className='md:w-5/6 md:min-h-screen overflow-scroll p-5'>
+            <main className='md:w-5/6 min-h-screen overflow-scroll p-5'>
                 <Outlet />
             </main>
         </div>

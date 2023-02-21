@@ -4,11 +4,9 @@ import { NavLink, useLocation } from 'react-router-dom';
 
 export const SideBar = () => {
     const location = useLocation();
-    console.log(location);
-
-
+    
     return (
-        <div className="md:w-1/6 bg-white px-5 py-10 shadow-lg rounded-2xl">
+        <div className="md:w-2/6 bg-white px-5 py-10 shadow-lg rounded-2xl">
             <h1 className='text-xl font-bold bg-gray-800 p-3 text-gray-100 rounded-lg'>CMR - Empleados</h1>
 
             <nav className='grid gap-3 mt-10'>
