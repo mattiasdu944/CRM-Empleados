@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import { Inicio, inicioLoader, NuevoCliente } from "../src/pages";
+import { action, Inicio, inicioLoader, NuevoCliente } from "../src/pages";
 import { MainLayout } from "../src/components/layouts";
 
 
@@ -16,7 +16,8 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/clientes/nuevo',
-                element: <NuevoCliente/>
+                element: <NuevoCliente/>,
+                action: action,
             },
         ],
     },
